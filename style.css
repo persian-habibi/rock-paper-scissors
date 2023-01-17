@@ -1,1 +1,63 @@
+body{
+    display:flex ;
+    flex-direction: column;
 
+
+}
+.central{
+    display:flex ;
+    justify-content: center;
+    padding: 50px;
+    
+}
+#bottom{
+    display:flex ;
+    justify-content:center;
+    /* padding: 200px;
+    margin:420px; */
+    background-color: aqua;
+    align-items:baseline;
+    flex-direction: row;
+    
+
+}
+.bob{
+    display: flex;
+    padding: 20px;
+    margin: 30px;
+    border: 3px solid red;
+    border-radius: 30%;
+
+}
+.playing {
+    transform: scale(1.1);
+    /* border-top: #0084ff; */
+    border-top: 10px solid green;
+    /* box-shadow: 0 0 1rem #2f5c97; */
+    
+    /* border: 3px solid red; */
+  }
+.cplaying{
+    transform: scale(1.1);
+    /* border-color: solid 5px #a3165d;
+    border-bottom: #9e2576;
+    box-shadow: 0 5px 5px 0 rem #40117e; */
+    border-bottom: 10px solid rgb(128, 0, 75);
+}
+.weapon{
+    transition: all .4s ease;
+    margin: 20px;
+}
+#computer{
+    display: flex;
+    font-size: 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    justify-content: center;
+}
+#winner{
+    display: flex;
+    font-size: 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    justify-content: center;
+    background-color: blueviolet;
+}
